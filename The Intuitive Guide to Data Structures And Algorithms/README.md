@@ -16,7 +16,6 @@ We'll walk you through it all, step by step. Starting from the beginning.
 
 # 1.Big O Notation
 ## Using not-boring math to measure code's efficiency
-```
 
 ## The idea behind big O notation
 
@@ -29,8 +28,8 @@ With big O notation we express the runtime in terms of—brace yourself—how qu
 Let's break that down:
 
    1. **how quickly the runtime grows—** It's hard to pin down the exact runtime of an algorithm. It depends on the speed of the processor, what else the computer is running, etc. So instead of talking about the runtime directly, we use big O notation to talk about how quickly the runtime grows.
-   2. **relative to the input—**If we were measuring our runtime directly, we could express our speed in seconds. Since we're measuring how quickly our runtime grows, we need to express our speed in terms of...something else. With Big O notation, we use the size of the input, which we call "nnn." So we can say things like the runtime grows "on the order of the size of the input" (O(n)O(n)O(n)) or "on the order of the square of the size of the input" (O(n2)O(n^2)O(n2)).
-   3. **as the input gets arbitrarily large—**Our algorithm may have steps that seem expensive when nnn is small but are eclipsed eventually by other steps as nnn gets huge. For big O analysis, we care most about the stuff that grows fastest as the input grows, because everything else is quickly eclipsed as nnn gets very large. (If you know what an asymptote is, you might see why "big O analysis" is sometimes called "asymptotic analysis.")
+   2. **relative to the input—** If we were measuring our runtime directly, we could express our speed in seconds. Since we're measuring how quickly our runtime grows, we need to express our speed in terms of...something else. With Big O notation, we use the size of the input, which we call "nnn." So we can say things like the runtime grows "on the order of the size of the input" (O(n)O(n)O(n)) or "on the order of the square of the size of the input" (O(n2)O(n^2)O(n2)).
+   3. **as the input gets arbitrarily large—** Our algorithm may have steps that seem expensive when nnn is small but are eclipsed eventually by other steps as nnn gets huge. For big O analysis, we care most about the stuff that grows fastest as the input grows, because everything else is quickly eclipsed as nnn gets very large. (If you know what an asymptote is, you might see why "big O analysis" is sometimes called "asymptotic analysis.")
 
 If this seems abstract so far, that's because it is. Let's look at some examples.
 
