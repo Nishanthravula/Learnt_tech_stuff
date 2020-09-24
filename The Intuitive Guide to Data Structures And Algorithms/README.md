@@ -39,11 +39,11 @@ If this seems abstract so far, that's because it is. Let's look at some examples
 >def print_first_item(items):
 >  - print(items[0])
 
-**This function runs in O(1)O(1)O(1) time (or "constant time") relative to its input.** The input list could be 1 item or 1,000 items, but this function would still just require one "step." 
+* **This function runs in O(1)O(1)O(1) time (or "constant time") relative to its input.** The input list could be 1 item or 1,000 items, but this function would still just require one "step." 
 
 >def print_all_items(items):
-  - for item in items:
-      - print(item)
+ >- for item in items:
+    >- print(item)
       
-**This function runs in O(n)O(n)O(n) time (or "linear time"), where nnn is the number of items in the list.** If the list has 10 items, we have to print 10 times. If it has 1,000 items, we have to print 1,000 times. 
+* **This function runs in O(n)O(n)O(n) time (or "linear time"), where nnn is the number of items in the list.** If the list has 10 items, we have to print 10 times. If it has 1,000 items, we have to print 1,000 times. 
 
