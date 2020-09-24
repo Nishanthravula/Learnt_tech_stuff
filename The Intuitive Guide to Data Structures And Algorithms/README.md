@@ -33,3 +33,10 @@ Let's break that down:
 
 If this seems abstract so far, that's because it is. Let's look at some examples.
 
+
+## Some examples
+
+>def print_first_item(items):
+    print(items[0])
+
+
