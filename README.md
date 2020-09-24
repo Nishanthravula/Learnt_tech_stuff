@@ -3,4 +3,4 @@
 * Web development(HTML,CSS,JS)
 * Flask
 * PostgreSQL
-*The Intuitive Guide to Data Structures And Algorithms 
+* The Intuitive Guide to Data Structures And Algorithms 
