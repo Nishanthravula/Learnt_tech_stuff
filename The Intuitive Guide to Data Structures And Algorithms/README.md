@@ -1,4 +1,4 @@
-# The Intuitive Guide to Data Structures And Algorithms
+# Guide to Data Structures And Algorithms
 ```
 This is not a freaking textbook. No confusing academic jargon. No long lists of properties to memorize. No proofs. Because that stuff doesn't help you actually get it.
 
