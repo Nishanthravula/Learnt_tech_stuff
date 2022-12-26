@@ -12,3 +12,6 @@
 * Back Propagation (Neural Networks)
 * Navie Bayes classifer
 * Gassuian Mixture Model
+* Hidden Markov Model
+* Random Forest
+* AdaBoost
